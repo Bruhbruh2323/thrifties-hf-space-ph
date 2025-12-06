@@ -1,0 +1,54 @@
+[
+  {
+    "id": "THR-001",
+    "title": "Vintage Denim Jacket",
+    "brand": "Levi's",
+    "category": "Outerwear",
+    "size": "M",
+    "condition": "Gently used",
+    "price": 1299.0,
+    "currency": "PHP",
+    "seller": "Kai's Closet",
+    "sustainable_note": "Reused denim saves ~7,500 liters of water vs new",
+    "images": [],
+    "tags": [
+      "vintage",
+      "denim",
+      "unisex"
+    ]
+  },
+  {
+    "id": "THR-002",
+    "title": "90s Graphic Tee",
+    "brand": "Fruit of the Loom",
+    "category": "Top",
+    "size": "L",
+    "condition": "Good",
+    "price": 399.0,
+    "currency": "PHP",
+    "seller": "EcoFits PH",
+    "sustainable_note": "Extending life keeps textiles out of landfills",
+    "images": [],
+    "tags": [
+      "retro",
+      "streetwear"
+    ]
+  },
+  {
+    "id": "THR-003",
+    "title": "Floral Midi Dress",
+    "brand": "Zara",
+    "category": "Dress",
+    "size": "S",
+    "condition": "Like new",
+    "price": 799.0,
+    "currency": "PHP",
+    "seller": "Thrift Belles",
+    "sustainable_note": "Rewearing reduces CO2 footprint",
+    "images": [],
+    "tags": [
+      "summer",
+      "feminine"
+    ]
+  }
+]

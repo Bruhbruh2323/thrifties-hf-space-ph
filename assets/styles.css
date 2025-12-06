@@ -1,0 +1,51 @@
+
+:root {
+  --bg: #0f0f10;
+  --card: #17171a;
+  --accent: #ff6bd6;
+  --accent2: #6be3ff;
+  --text: #e8e8ea;
+  --muted: #a0a2a7;
+}
+
+/* Global */
+html, body, [data-testid="stAppViewContainer"] {
+  background: linear-gradient(140deg, #0c0c0d 0%, #14161b 50%, #0b0c11 100%) !important;
+}
+
+h1, h2, h3, h4, h5, h6, p, span, label, button { color: var(--text) !important; }
+
+/* Product card */
+.card {
+  background: linear-gradient(180deg, var(--card), #111114);
+  border: 1px solid rgba(255,255,255,0.07);
+  border-radius: 16px;
+  padding: 1rem 1.2rem;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.35);
+}
+.badge {
+  display:inline-block; padding:6px 10px; border-radius: 999px; font-size: 12px;
+  background: linear-gradient(90deg, var(--accent), var(--accent2));
+  color:#101012; font-weight:700;
+}
+.price { font-size: 22px; font-weight: 800; color: var(--accent); }
+.muted { color: var(--muted); }
+
+/* CTA Buttons */
+.cta {
+  background: linear-gradient(90deg, var(--accent), var(--accent2));
+  color: #0c0e12; font-weight: 800; border: none; padding: 10px 16px; border-radius: 12px;
+}
+
+/* Nav pill */
+.navpill {
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.12);
+  padding: 8px 12px; border-radius: 12px; display:inline-block;
+}
+
+/* Sustainability counters */
+.counter {
+  display:flex; align-items:center; gap: 12px; background: rgba(255,255,255,0.06);
+  border:1px solid rgba(255,255,255,0.12); border-radius:16px; padding: 10px 16px;
+}
